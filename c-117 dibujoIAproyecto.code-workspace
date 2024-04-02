@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../c-117_IAdibujo"
+		},
+		{
+			"path": "../../02_tools st/tool image"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "c-117 dibujoIAproyecto"
+	}
+}

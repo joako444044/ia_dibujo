@@ -1,0 +1,71 @@
+body
+{
+    font-family: 'Lobster', cursive;
+    background-color: darkblue;
+    color: gainsboro;
+}
+canvas
+{
+    background-color: azure;
+    top: 20%;
+}
+.hh
+{
+    color: cornsilk;
+    background-color:black;
+
+    border-style: double;
+    width:800 ;
+    border-radius: 25%;
+}
+img
+{
+    width: 80;
+    height: 80;
+}
+h1
+{
+  font-family: 'Special Elite', fantasy;
+  color:rgb(38, 0, 255);
+  background-color: cornsilk;
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    top: 30% !important;
+}
+@keyframes example {
+
+    0%{border-color:rgb(49, 46, 202) ; border-width: 16px;}
+    20%{border-color: rgb(3, 241, 62); border-width: 12px;}
+    40%{border-color: crimson; border-width: 8px;}
+    60%{border-color: yellow; border-width: 4px;}
+    80%{border-color: rgb(169, 5, 251); border-width: 8px;}
+    100%{border-color: rgb(64, 254, 210); border-width: 12px;}
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:25px;
+    
+  }
+  #buton-clear
+  {
+    float: left;
+  }
